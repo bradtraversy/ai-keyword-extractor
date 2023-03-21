@@ -4,8 +4,8 @@ import logo from '../assets/openai.png';
 const Footer = () => {
   return (
     <Box marginTop={50}>
-      <Flex justifyContent='center'>
-        <Image src={logo} marginRight={3} />
+      <Flex justifyContent='center' alignItems='center'>
+        <Image src={logo} marginRight={1} />
         <Text>Powered By Open AI</Text>
       </Flex>
     </Box>
